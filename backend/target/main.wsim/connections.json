@@ -1,0 +1,15 @@
+{
+  "version": "connections-0.1",
+  "connections": [
+    {
+      "source": "root/Default/cloud.Api",
+      "target": "root/Default/cloud.Api/OnRequestHandler0",
+      "name": "get()"
+    },
+    {
+      "source": "root/Default/cloud.Api",
+      "target": "root/Default/cloud.Api/OnRequestHandler1",
+      "name": "get()"
+    }
+  ]
+}
