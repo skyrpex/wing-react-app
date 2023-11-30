@@ -36,7 +36,7 @@ class $Root extends $stdlib.std.Resource {
         `;
       }
       _supportedOps() {
-        return ["handle", "$inflight_init"];
+        return [...super._supportedOps(), "handle", "$inflight_init"];
       }
     }
     class $Closure2 extends $stdlib.std.Resource {
@@ -49,6 +49,7 @@ class $Root extends $stdlib.std.Resource {
         return `
           require("./inflight.$Closure2-1.js")({
             $std_Json: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(std.Json, "@winglang/sdk/std", "Json"))},
+            $std_String: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(std.String, "@winglang/sdk/std", "String"))},
           })
         `;
       }
@@ -64,13 +65,100 @@ class $Root extends $stdlib.std.Resource {
         `;
       }
       _supportedOps() {
-        return ["handle", "$inflight_init"];
+        return [...super._supportedOps(), "handle", "$inflight_init"];
       }
     }
-    const api = this.node.root.new("@winglang/sdk.cloud.Api", cloud.Api, this, "cloud.Api", { cors: true, corsOptions: ({"allowHeaders": ["*"], "allowMethods": [http.HttpMethod.OPTIONS, http.HttpMethod.GET]}) });
+    class $Closure3 extends $stdlib.std.Resource {
+      _hash = require('crypto').createHash('md5').update(this._toInflight()).digest('hex');
+      constructor($scope, $id, ) {
+        super($scope, $id);
+        (std.Node.of(this)).hidden = true;
+      }
+      static _toInflightType() {
+        return `
+          require("./inflight.$Closure3-1.js")({
+            $std_Json: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(std.Json, "@winglang/sdk/std", "Json"))},
+          })
+        `;
+      }
+      _toInflight() {
+        return `
+          (await (async () => {
+            const $Closure3Client = ${$Closure3._toInflightType(this)};
+            const client = new $Closure3Client({
+            });
+            if (client.$inflight_init) { await client.$inflight_init(); }
+            return client;
+          })())
+        `;
+      }
+      _supportedOps() {
+        return [...super._supportedOps(), "handle", "$inflight_init"];
+      }
+    }
+    class $Closure4 extends $stdlib.std.Resource {
+      _hash = require('crypto').createHash('md5').update(this._toInflight()).digest('hex');
+      constructor($scope, $id, ) {
+        super($scope, $id);
+        (std.Node.of(this)).hidden = true;
+      }
+      static _toInflightType() {
+        return `
+          require("./inflight.$Closure4-1.js")({
+          })
+        `;
+      }
+      _toInflight() {
+        return `
+          (await (async () => {
+            const $Closure4Client = ${$Closure4._toInflightType(this)};
+            const client = new $Closure4Client({
+            });
+            if (client.$inflight_init) { await client.$inflight_init(); }
+            return client;
+          })())
+        `;
+      }
+      _supportedOps() {
+        return [...super._supportedOps(), "handle", "$inflight_init"];
+      }
+    }
+    class $Closure5 extends $stdlib.std.Resource {
+      _hash = require('crypto').createHash('md5').update(this._toInflight()).digest('hex');
+      constructor($scope, $id, ) {
+        super($scope, $id);
+        (std.Node.of(this)).hidden = true;
+      }
+      static _toInflightType() {
+        return `
+          require("./inflight.$Closure5-1.js")({
+            $std_Json: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(std.Json, "@winglang/sdk/std", "Json"))},
+            $std_String: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(std.String, "@winglang/sdk/std", "String"))},
+          })
+        `;
+      }
+      _toInflight() {
+        return `
+          (await (async () => {
+            const $Closure5Client = ${$Closure5._toInflightType(this)};
+            const client = new $Closure5Client({
+            });
+            if (client.$inflight_init) { await client.$inflight_init(); }
+            return client;
+          })())
+        `;
+      }
+      _supportedOps() {
+        return [...super._supportedOps(), "handle", "$inflight_init"];
+      }
+    }
+    const api = this.node.root.new("@winglang/sdk.cloud.Api", cloud.Api, this, "cloud.Api", { cors: true, corsOptions: ({"allowHeaders": ["*"], "allowMethods": [http.HttpMethod.OPTIONS, http.HttpMethod.GET, http.HttpMethod.PUT]}) });
     const website = this.node.root.new("@winglang/sdk.ex.ReactApp", ex.ReactApp, this, "ex.ReactApp", { projectPath: "./../client", localPort: 4001 });
     (api.get("/api/folders", new $Closure1(this, "$Closure1")));
-    (api.get("/api/folders/:folder", new $Closure2(this, "$Closure2")));
+    (api.post("/api/folder", new $Closure2(this, "$Closure2")));
+    (api.get("/api/folders/:folder", new $Closure3(this, "$Closure3")));
+    (api.get("/api/folders/:folder/:file", new $Closure4(this, "$Closure4")));
+    (api.put("/api/folders/:folder/:file", new $Closure5(this, "$Closure5")));
     (website.addEnvironment("name", "like"));
     (website.addEnvironment("apiUrl", api.url));
   }

@@ -2,79 +2,79 @@
   "types": {
     "@winglang/sdk.cloud.Api": {
       "className": "Api",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.inflight.js"
     },
     "@winglang/sdk.cloud.Bucket": {
       "className": "Bucket",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/bucket.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/bucket.inflight.js"
     },
     "@winglang/sdk.cloud.Counter": {
       "className": "Counter",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/counter.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/counter.inflight.js"
     },
     "@winglang/sdk.cloud.Domain": {
       "className": "Domain",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/domain.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/domain.inflight.js"
     },
     "@winglang/sdk.ex.DynamodbTable": {
       "className": "DynamodbTable",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/dynamodb-table.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/dynamodb-table.inflight.js"
     },
     "@winglang/sdk.sim.EventMapping": {
       "className": "EventMapping",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/event-mapping.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/event-mapping.inflight.js"
     },
     "@winglang/sdk.cloud.Function": {
       "className": "Function",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/function.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/function.inflight.js"
     },
     "@winglang/sdk.cloud.OnDeploy": {
       "className": "OnDeploy",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/on-deploy.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/on-deploy.inflight.js"
     },
     "@winglang/sdk.cloud.Queue": {
       "className": "Queue",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/queue.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/queue.inflight.js"
     },
     "@winglang/sdk.ex.ReactApp": {
       "className": "ReactApp",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/react-app.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/react-app.inflight.js"
     },
     "@winglang/sdk.ex.Redis": {
       "className": "Redis",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/redis.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/redis.inflight.js"
     },
     "@winglang/sdk.cloud.Schedule": {
       "className": "Schedule",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/schedule.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/schedule.inflight.js"
     },
     "@winglang/sdk.cloud.Secret": {
       "className": "Secret",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/secret.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/secret.inflight.js"
     },
     "@winglang/sdk.cloud.Service": {
       "className": "Service",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/service.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/service.inflight.js"
     },
     "@winglang/sdk.sim.State": {
       "className": "State",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/state.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/state.inflight.js"
     },
     "@winglang/sdk.ex.Table": {
       "className": "Table",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/table.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/table.inflight.js"
     },
     "@winglang/sdk.std.TestRunner": {
       "className": "TestRunner",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/test-runner.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/test-runner.inflight.js"
     },
     "@winglang/sdk.cloud.Topic": {
       "className": "Topic",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/topic.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/topic.inflight.js"
     },
     "@winglang/sdk.cloud.Website": {
       "className": "Website",
-      "sourcePath": "/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/website.inflight.js"
+      "sourcePath": "/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/website.inflight.js"
     }
   },
   "resources": [
@@ -109,6 +109,40 @@
             "/api/folders": {
               "get": {
                 "operationId": "get-api/folders",
+                "responses": {
+                  "200": {
+                    "description": "200 response",
+                    "content": {},
+                    "headers": {
+                      "Access-Control-Allow-Origin": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Allow-Methods": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Allow-Headers": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Max-Age": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "parameters": []
+              }
+            },
+            "/api/folder": {
+              "post": {
+                "operationId": "post-api/folder",
                 "responses": {
                   "200": {
                     "description": "200 response",
@@ -182,6 +216,106 @@
                   }
                 ]
               }
+            },
+            "/api/folders/{folder}/{file}": {
+              "get": {
+                "operationId": "get-api/folders/:folder/:file",
+                "responses": {
+                  "200": {
+                    "description": "200 response",
+                    "content": {},
+                    "headers": {
+                      "Access-Control-Allow-Origin": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Allow-Methods": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Allow-Headers": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Max-Age": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "parameters": [
+                  {
+                    "name": "folder",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                      "type": "string"
+                    }
+                  },
+                  {
+                    "name": "file",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              },
+              "put": {
+                "operationId": "put-api/folders/:folder/:file",
+                "responses": {
+                  "200": {
+                    "description": "200 response",
+                    "content": {},
+                    "headers": {
+                      "Access-Control-Allow-Origin": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Allow-Methods": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Allow-Headers": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      },
+                      "Access-Control-Max-Age": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "parameters": [
+                  {
+                    "name": "folder",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                      "type": "string"
+                    }
+                  },
+                  {
+                    "name": "file",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              }
             }
           }
         },
@@ -194,7 +328,7 @@
           "optionsResponse": {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Headers": "*",
-            "Access-Control-Allow-Methods": "OPTIONS,GET",
+            "Access-Control-Allow-Methods": "OPTIONS,GET,PUT",
             "Access-Control-Max-Age": "300"
           }
         }
@@ -240,8 +374,98 @@
         "subscriptionProps": {
           "routes": [
             {
+              "path": "/api/folder",
+              "method": "POST"
+            }
+          ]
+        }
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/cloud.Api/OnRequestHandler2",
+      "props": {
+        "sourceCodeFile": ".wing/onrequesthandler2_c8505d95.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim"
+        },
+        "timeout": 60000
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.sim.EventMapping",
+      "path": "root/Default/cloud.Api/ApiEventMapping2",
+      "props": {
+        "subscriber": "${wsim#root/Default/cloud.Api/OnRequestHandler2#attrs.handle}",
+        "publisher": "${wsim#root/Default/cloud.Api#attrs.handle}",
+        "subscriptionProps": {
+          "routes": [
+            {
               "path": "/api/folders/:folder",
               "method": "GET"
+            }
+          ]
+        }
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/cloud.Api/OnRequestHandler3",
+      "props": {
+        "sourceCodeFile": ".wing/onrequesthandler3_c87201d6.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim"
+        },
+        "timeout": 60000
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.sim.EventMapping",
+      "path": "root/Default/cloud.Api/ApiEventMapping3",
+      "props": {
+        "subscriber": "${wsim#root/Default/cloud.Api/OnRequestHandler3#attrs.handle}",
+        "publisher": "${wsim#root/Default/cloud.Api#attrs.handle}",
+        "subscriptionProps": {
+          "routes": [
+            {
+              "path": "/api/folders/:folder/:file",
+              "method": "GET"
+            }
+          ]
+        }
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/cloud.Api/OnRequestHandler4",
+      "props": {
+        "sourceCodeFile": ".wing/onrequesthandler4_c8cac525.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim"
+        },
+        "timeout": 60000
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.sim.EventMapping",
+      "path": "root/Default/cloud.Api/ApiEventMapping4",
+      "props": {
+        "subscriber": "${wsim#root/Default/cloud.Api/OnRequestHandler4#attrs.handle}",
+        "publisher": "${wsim#root/Default/cloud.Api#attrs.handle}",
+        "subscriptionProps": {
+          "routes": [
+            {
+              "path": "/api/folders/:folder/:file",
+              "method": "PUT"
             }
           ]
         }
@@ -252,7 +476,7 @@
       "type": "@winglang/sdk.ex.ReactApp",
       "path": "root/Default/ex.ReactApp",
       "props": {
-        "path": "/Users/eyalkeren/monada-workspace/workshops/wing-react-app/client",
+        "path": "/Users/tsuf/Documents/wing-react-app/client",
         "startCommand": "PORT=4001 npm run start",
         "environmentVariables": {
           "name": "like",
@@ -264,5 +488,5 @@
       "attrs": {}
     }
   ],
-  "sdkVersion": "0.50.5"
+  "sdkVersion": "0.51.2"
 }

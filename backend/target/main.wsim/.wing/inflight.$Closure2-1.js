@@ -1,5 +1,5 @@
 "use strict";
-module.exports = function({ $std_Json }) {
+module.exports = function({ $std_Json, $std_String }) {
   class $Closure2 {
     constructor({  }) {
       const $obj = (...args) => this.handle(...args);
@@ -7,8 +7,8 @@ module.exports = function({ $std_Json }) {
       return $obj;
     }
     async handle(req) {
-      const f = ((obj, key) => { if (!(key in obj)) throw new Error(`Map does not contain key: "${key}"`); return obj[key]; })(req.vars, "folder");
-      return ({"status": 200, "body": ((args) => { return JSON.stringify(args[0], null, args[1]?.indent) })([[String.raw({ raw: ["", "a"] }, f), String.raw({ raw: ["", "b"] }, f)]])});
+      const folder = ((obj, args) => { if (obj[args] === undefined) throw new Error(`Json property "${args}" does not exist`); return obj[args] })((JSON.parse((req.body ?? ""))), "folder");
+      return ({"status": 200, "body": (await $std_String.fromJson(folder))});
     }
   }
   return $Closure2;

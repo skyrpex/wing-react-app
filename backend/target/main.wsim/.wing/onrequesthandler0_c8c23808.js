@@ -4,7 +4,7 @@ exports.handler = async function(event) {
           (await (async () => {
             const $Closure1Client = 
           require("./inflight.$Closure1-1.js")({
-            $std_Json: require("/Users/eyalkeren/.nvm/versions/node/v18.17.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+            $std_Json: require("/opt/homebrew/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
           })
         ;
             const client = new $Closure1Client({
