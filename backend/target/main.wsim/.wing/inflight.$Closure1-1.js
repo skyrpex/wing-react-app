@@ -7,7 +7,7 @@ module.exports = function({ $std_Json }) {
       return $obj;
     }
     async handle(req) {
-      return ({"status": 200, "body": ((args) => { return JSON.stringify(args[0], null, args[1]?.indent) })([["a", "b", "c"]])});
+      return ({"status": 200, "body": ((args) => { return JSON.stringify(args[0], null, args[1]?.indent) })([["a", "b", "c", "d", "e", "f"]])});
     }
   }
   return $Closure1;

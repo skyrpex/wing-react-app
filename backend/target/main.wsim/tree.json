@@ -57,7 +57,7 @@
                   "version": "0.0.0"
                 },
                 "display": {
-                  "title": "GET /api/folders/:folder",
+                  "title": "POST /api/folder",
                   "description": "A cloud function (FaaS)",
                   "sourceModule": "@winglang/sdk"
                 }
@@ -65,6 +65,78 @@
               "ApiEventMapping1": {
                 "id": "ApiEventMapping1",
                 "path": "root/Default/cloud.Api/ApiEventMapping1",
+                "constructInfo": {
+                  "fqn": "@winglang/sdk.std.Resource",
+                  "version": "0.0.0"
+                },
+                "display": {
+                  "hidden": true
+                }
+              },
+              "OnRequestHandler2": {
+                "id": "OnRequestHandler2",
+                "path": "root/Default/cloud.Api/OnRequestHandler2",
+                "constructInfo": {
+                  "fqn": "@winglang/sdk.cloud.Function",
+                  "version": "0.0.0"
+                },
+                "display": {
+                  "title": "GET /api/folders/:folder",
+                  "description": "A cloud function (FaaS)",
+                  "sourceModule": "@winglang/sdk"
+                }
+              },
+              "ApiEventMapping2": {
+                "id": "ApiEventMapping2",
+                "path": "root/Default/cloud.Api/ApiEventMapping2",
+                "constructInfo": {
+                  "fqn": "@winglang/sdk.std.Resource",
+                  "version": "0.0.0"
+                },
+                "display": {
+                  "hidden": true
+                }
+              },
+              "OnRequestHandler3": {
+                "id": "OnRequestHandler3",
+                "path": "root/Default/cloud.Api/OnRequestHandler3",
+                "constructInfo": {
+                  "fqn": "@winglang/sdk.cloud.Function",
+                  "version": "0.0.0"
+                },
+                "display": {
+                  "title": "GET /api/folders/:folder/:file",
+                  "description": "A cloud function (FaaS)",
+                  "sourceModule": "@winglang/sdk"
+                }
+              },
+              "ApiEventMapping3": {
+                "id": "ApiEventMapping3",
+                "path": "root/Default/cloud.Api/ApiEventMapping3",
+                "constructInfo": {
+                  "fqn": "@winglang/sdk.std.Resource",
+                  "version": "0.0.0"
+                },
+                "display": {
+                  "hidden": true
+                }
+              },
+              "OnRequestHandler4": {
+                "id": "OnRequestHandler4",
+                "path": "root/Default/cloud.Api/OnRequestHandler4",
+                "constructInfo": {
+                  "fqn": "@winglang/sdk.cloud.Function",
+                  "version": "0.0.0"
+                },
+                "display": {
+                  "title": "PUT /api/folders/:folder/:file",
+                  "description": "A cloud function (FaaS)",
+                  "sourceModule": "@winglang/sdk"
+                }
+              },
+              "ApiEventMapping4": {
+                "id": "ApiEventMapping4",
+                "path": "root/Default/cloud.Api/ApiEventMapping4",
                 "constructInfo": {
                   "fqn": "@winglang/sdk.std.Resource",
                   "version": "0.0.0"
@@ -109,6 +181,39 @@
           "$Closure2": {
             "id": "$Closure2",
             "path": "root/Default/$Closure2",
+            "constructInfo": {
+              "fqn": "@winglang/sdk.std.Resource",
+              "version": "0.0.0"
+            },
+            "display": {
+              "hidden": true
+            }
+          },
+          "$Closure3": {
+            "id": "$Closure3",
+            "path": "root/Default/$Closure3",
+            "constructInfo": {
+              "fqn": "@winglang/sdk.std.Resource",
+              "version": "0.0.0"
+            },
+            "display": {
+              "hidden": true
+            }
+          },
+          "$Closure4": {
+            "id": "$Closure4",
+            "path": "root/Default/$Closure4",
+            "constructInfo": {
+              "fqn": "@winglang/sdk.std.Resource",
+              "version": "0.0.0"
+            },
+            "display": {
+              "hidden": true
+            }
+          },
+          "$Closure5": {
+            "id": "$Closure5",
+            "path": "root/Default/$Closure5",
             "constructInfo": {
               "fqn": "@winglang/sdk.std.Resource",
               "version": "0.0.0"
