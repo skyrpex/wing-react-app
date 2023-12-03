@@ -7,7 +7,7 @@ const Folder = ({folder}) => {
   const [isHover, setIsOver] = useState(false);
 
   return (
-    <Link to={`/${folder}`} as="div" style={style.folder} onMouseOver={() => setIsOver(true)} onMouseOut={() => setIsOver(false)}>
+    <Link to={`${folder}`} as="div" style={style.folder} onMouseOver={() => setIsOver(true)} onMouseOut={() => setIsOver(false)}>
       <Icon name={isHover ? "folder open outline" : "folder outline"} size="huge" />
       <Label>{folder}</Label>
     </Link>
@@ -26,7 +26,7 @@ export const RootView = () => {
 
   const addFolder = async () => {
     setIsLoading(true);
-    await fetch(`${window.wingEnv.apiUrl}/api/folder`, {method: "POST", body: JSON.stringify({folder: folderName})});
+    await fetch(`${window.wingEnv.apiUrl}/api/folders`, {method: "POST", body: JSON.stringify({folder: folderName})});
     await getFolders();
     setFolderName("");
     setIsLoading(false);
