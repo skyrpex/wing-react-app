@@ -35,7 +35,7 @@ export const InFolderView = () => {
 
   const updateFile = async () => {
     setIsLoading(true);
-    await fetch(`${window.wingEnv.apiUrl}/api/folders/${folder}/${filename}`, {method: "PUT", body: JSON.stringify({content: fileContent})});
+    await fetch(`${window.wingEnv.apiUrl}/api/folders/${folder}/${filename}`, {method: "PUT", body: fileContent});
     await getContent();
     setIsLoading(false);
     reset();
