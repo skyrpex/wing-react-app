@@ -101,6 +101,14 @@ api.put("/api/folders/:folder/:file", inflight (req) => {
   };
 });
 
+api.get("/clean", inflight (req) => {
+  fileStorage.deleteAll();
+  return {
+    status: 200,
+    body: ""
+  };
+});
+
 let url = api.url;
 
 // new checks.Check(inflight () => {

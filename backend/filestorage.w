@@ -87,4 +87,16 @@ pub class FileStorage {
 
     return results.copy();
   }
+
+  pub inflight deleteAll():void {
+    let result = this.index.scan();
+    let results = MutArray<Entry>[];
+    for i in result.items {
+      let k = Entry.fromJson(i).path;
+      this.index.deleteItem(
+        key: {
+          path: k
+        });
+    }
+  }
 }
