@@ -6,10 +6,6 @@ bring expect;
 bring math;
 bring fs;
 bring "./filestorage.w" as f;
-bring checks;
-
-
-
 
 let fileStorage = new f.FileStorage();
 
