@@ -1,17 +1,8 @@
 bring ex;
 bring cloud;
-bring http;
-bring util;
-bring expect;
-bring math;
-bring fs;
 bring "./flat-file-system.w" as f;
 
 let fileStorage = new f.FlatFileSystem();
-
-let expectJsonEqual = inflight (a: Json, b: Json) => {
-  expect.equal(Json.stringify(a), Json.stringify(b));
-};
 
 let website = new ex.ReactApp(
   projectPath: "./../client",
@@ -24,7 +15,6 @@ let api = new cloud.Api(
 
 website.addEnvironment("apiUrl", api.url);
 
-// lists the folders in the 
 api.get("/api/folders", inflight (req) => {
   return {
     status: 200,
@@ -47,7 +37,6 @@ api.post("/api/folders", inflight (req) => {
     };
 });
 
-// reads the content of a folder
 api.get("/api/folders/:folder", inflight (req) => {
   let folder = req.vars.get("folder");
   return {
@@ -56,7 +45,6 @@ api.get("/api/folders/:folder", inflight (req) => {
   };
 });
 
-// reads the content of a file in a folder
 api.get("/api/folders/:folder/:file", inflight (req) => {
   let folder = req.vars.get("folder");
   let file = req.vars.get("file");
@@ -66,7 +54,6 @@ api.get("/api/folders/:folder/:file", inflight (req) => {
   };
 });
 
-// puts a file in the folder
 api.put("/api/folders/:folder/:file", inflight (req) => {
   let folder = req.vars.get("folder");
   let file = req.vars.get("file");
@@ -75,14 +62,6 @@ api.put("/api/folders/:folder/:file", inflight (req) => {
   return {
     status: 200,
     body: Json.stringify({filename: file, content: content})
-  };
-});
-
-api.get("/clean", inflight (req) => {
-  fileStorage.deleteAll();
-  return {
-    status: 200,
-    body: ""
   };
 });
 
